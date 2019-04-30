@@ -18,7 +18,7 @@ When you be inside the app directory in terminal, execute the follow commands be
 
 
 	git init
-	git remote add origin git@gitlab.com:julianoterres/breed-dogs.git
+	git remote add origin git@gitlab.com:julianoterres/ios-blog-posts.git
 	git fetch
 	git checkout master
 
