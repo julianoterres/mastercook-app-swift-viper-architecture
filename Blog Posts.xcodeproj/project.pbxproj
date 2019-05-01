@@ -8,11 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E3A69E672278DE7500F1BB7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E662278DE7500F1BB7E /* AppDelegate.swift */; };
-		E3A69E692278DE7500F1BB7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E682278DE7500F1BB7E /* ViewController.swift */; };
-		E3A69E6C2278DE7500F1BB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A69E6A2278DE7500F1BB7E /* Main.storyboard */; };
 		E3A69E6E2278DE7700F1BB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A69E6D2278DE7700F1BB7E /* Assets.xcassets */; };
 		E3A69E712278DE7700F1BB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A69E6F2278DE7700F1BB7E /* LaunchScreen.storyboard */; };
-		E3A69E7C2278DE7700F1BB7E /* Blog_PostsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E7B2278DE7700F1BB7E /* Blog_PostsTests.swift */; };
+		E3A69E8C2278F14700F1BB7E /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A69E8A2278F14700F1BB7E /* Kingfisher.framework */; };
+		E3A69E8D2278F14700F1BB7E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A69E8B2278F14700F1BB7E /* Alamofire.framework */; };
+		E3A69E962278F52700F1BB7E /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E952278F52700F1BB7E /* AppRouter.swift */; };
+		E3A69E9A2278F5E400F1BB7E /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E992278F5E400F1BB7E /* PostListView.swift */; };
+		E3A69E9C2278F5F200F1BB7E /* PostListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E9B2278F5F200F1BB7E /* PostListProtocols.swift */; };
+		E3A69E9E2278F5FD00F1BB7E /* PostListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E9D2278F5FD00F1BB7E /* PostListPresenter.swift */; };
+		E3A69EA02278F60D00F1BB7E /* PostListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E9F2278F60D00F1BB7E /* PostListService.swift */; };
+		E3A69EA22278F61600F1BB7E /* PostListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EA12278F61600F1BB7E /* PostListCell.swift */; };
+		E3A69EA52278F67300F1BB7E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EA42278F67300F1BB7E /* UIViewExtension.swift */; };
+		E3A69EA72278F68400F1BB7E /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EA62278F68400F1BB7E /* UIViewControllerExtension.swift */; };
+		E3A69EA92278F81400F1BB7E /* PostListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EA82278F81400F1BB7E /* PostListRouter.swift */; };
+		E3A69EAB227903D800F1BB7E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EAA227903D800F1BB7E /* StringExtension.swift */; };
+		E3A69EAD2279041000F1BB7E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EAC2279041000F1BB7E /* UIColorExtension.swift */; };
+		E3A69EB022790C1100F1BB7E /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3A69EAF22790C1100F1BB7E /* Nunito-Bold.ttf */; };
+		E3A69EB222790D3800F1BB7E /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EB122790D3800F1BB7E /* UIFontExtension.swift */; };
+		E3A69EB42279100600F1BB7E /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3A69EB32279100600F1BB7E /* Nunito-Regular.ttf */; };
+		E3A69EB622791E0300F1BB7E /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EB522791E0300F1BB7E /* UINavigationControllerExtension.swift */; };
+		E3A69EB82279207500F1BB7E /* PostDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EB72279207500F1BB7E /* PostDetailPresenter.swift */; };
+		E3A69EBA2279208000F1BB7E /* PostDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EB92279208000F1BB7E /* PostDetailProtocols.swift */; };
+		E3A69EBC2279208A00F1BB7E /* PostDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EBB2279208A00F1BB7E /* PostDetailService.swift */; };
+		E3A69EBE227920AE00F1BB7E /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EBD227920AE00F1BB7E /* PostDetailView.swift */; };
+		E3A69EC0227920B600F1BB7E /* PostDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EBF227920B600F1BB7E /* PostDetailRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +47,34 @@
 /* Begin PBXFileReference section */
 		E3A69E632278DE7500F1BB7E /* Blog Posts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blog Posts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A69E662278DE7500F1BB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3A69E682278DE7500F1BB7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3A69E6B2278DE7500F1BB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3A69E6D2278DE7700F1BB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3A69E702278DE7700F1BB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3A69E722278DE7700F1BB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3A69E772278DE7700F1BB7E /* Blog PostsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blog PostsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3A69E7B2278DE7700F1BB7E /* Blog_PostsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog_PostsTests.swift; sourceTree = "<group>"; };
 		E3A69E7D2278DE7700F1BB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A69E872278EF8900F1BB7E /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		E3A69E8A2278F14700F1BB7E /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		E3A69E8B2278F14700F1BB7E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		E3A69E952278F52700F1BB7E /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		E3A69E992278F5E400F1BB7E /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		E3A69E9B2278F5F200F1BB7E /* PostListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListProtocols.swift; sourceTree = "<group>"; };
+		E3A69E9D2278F5FD00F1BB7E /* PostListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListPresenter.swift; sourceTree = "<group>"; };
+		E3A69E9F2278F60D00F1BB7E /* PostListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListService.swift; sourceTree = "<group>"; };
+		E3A69EA12278F61600F1BB7E /* PostListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListCell.swift; sourceTree = "<group>"; };
+		E3A69EA42278F67300F1BB7E /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E3A69EA62278F68400F1BB7E /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		E3A69EA82278F81400F1BB7E /* PostListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListRouter.swift; sourceTree = "<group>"; };
+		E3A69EAA227903D800F1BB7E /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E3A69EAC2279041000F1BB7E /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E3A69EAF22790C1100F1BB7E /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		E3A69EB122790D3800F1BB7E /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		E3A69EB32279100600F1BB7E /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		E3A69EB522791E0300F1BB7E /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		E3A69EB72279207500F1BB7E /* PostDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailPresenter.swift; sourceTree = "<group>"; };
+		E3A69EB92279208000F1BB7E /* PostDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailProtocols.swift; sourceTree = "<group>"; };
+		E3A69EBB2279208A00F1BB7E /* PostDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailService.swift; sourceTree = "<group>"; };
+		E3A69EBD227920AE00F1BB7E /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		E3A69EBF227920B600F1BB7E /* PostDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A69E8C2278F14700F1BB7E /* Kingfisher.framework in Frameworks */,
+				E3A69E8D2278F14700F1BB7E /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +103,8 @@
 				E3A69E652278DE7500F1BB7E /* Blog Posts */,
 				E3A69E7A2278DE7700F1BB7E /* Blog PostsTests */,
 				E3A69E642278DE7500F1BB7E /* Products */,
+				E3A69E892278F14700F1BB7E /* Frameworks */,
+				E3A69E872278EF8900F1BB7E /* Cartfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +120,11 @@
 		E3A69E652278DE7500F1BB7E /* Blog Posts */ = {
 			isa = PBXGroup;
 			children = (
-				E3A69E662278DE7500F1BB7E /* AppDelegate.swift */,
-				E3A69E682278DE7500F1BB7E /* ViewController.swift */,
-				E3A69E6A2278DE7500F1BB7E /* Main.storyboard */,
-				E3A69E6D2278DE7700F1BB7E /* Assets.xcassets */,
-				E3A69E6F2278DE7700F1BB7E /* LaunchScreen.storyboard */,
-				E3A69E722278DE7700F1BB7E /* Info.plist */,
+				E3A69E8F2278F20600F1BB7E /* App */,
+				E3A69E902278F20E00F1BB7E /* Common */,
+				E3A69E912278F21600F1BB7E /* Modules */,
+				E3A69E922278F21D00F1BB7E /* Resources */,
+				E3A69E932278F22300F1BB7E /* SupportFiles */,
 			);
 			path = "Blog Posts";
 			sourceTree = "<group>";
@@ -90,10 +132,117 @@
 		E3A69E7A2278DE7700F1BB7E /* Blog PostsTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3A69E7B2278DE7700F1BB7E /* Blog_PostsTests.swift */,
-				E3A69E7D2278DE7700F1BB7E /* Info.plist */,
+				E3A69E942278F25700F1BB7E /* SupportFiles */,
 			);
 			path = "Blog PostsTests";
+			sourceTree = "<group>";
+		};
+		E3A69E892278F14700F1BB7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3A69E8B2278F14700F1BB7E /* Alamofire.framework */,
+				E3A69E8A2278F14700F1BB7E /* Kingfisher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3A69E8F2278F20600F1BB7E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E3A69E662278DE7500F1BB7E /* AppDelegate.swift */,
+				E3A69E952278F52700F1BB7E /* AppRouter.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E3A69E902278F20E00F1BB7E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E3A69EA32278F66600F1BB7E /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E3A69E912278F21600F1BB7E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E3A69E982278F5AC00F1BB7E /* PostDetail */,
+				E3A69E972278F5A100F1BB7E /* PostList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E3A69E922278F21D00F1BB7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3A69EAE22790C0800F1BB7E /* Fonts */,
+				E3A69E6D2278DE7700F1BB7E /* Assets.xcassets */,
+				E3A69E6F2278DE7700F1BB7E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E3A69E932278F22300F1BB7E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E3A69E722278DE7700F1BB7E /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		E3A69E942278F25700F1BB7E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E3A69E7D2278DE7700F1BB7E /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		E3A69E972278F5A100F1BB7E /* PostList */ = {
+			isa = PBXGroup;
+			children = (
+				E3A69EA12278F61600F1BB7E /* PostListCell.swift */,
+				E3A69E9D2278F5FD00F1BB7E /* PostListPresenter.swift */,
+				E3A69E9B2278F5F200F1BB7E /* PostListProtocols.swift */,
+				E3A69E9F2278F60D00F1BB7E /* PostListService.swift */,
+				E3A69E992278F5E400F1BB7E /* PostListView.swift */,
+				E3A69EA82278F81400F1BB7E /* PostListRouter.swift */,
+			);
+			path = PostList;
+			sourceTree = "<group>";
+		};
+		E3A69E982278F5AC00F1BB7E /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E3A69EB72279207500F1BB7E /* PostDetailPresenter.swift */,
+				E3A69EB92279208000F1BB7E /* PostDetailProtocols.swift */,
+				E3A69EBB2279208A00F1BB7E /* PostDetailService.swift */,
+				E3A69EBD227920AE00F1BB7E /* PostDetailView.swift */,
+				E3A69EBF227920B600F1BB7E /* PostDetailRouter.swift */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		E3A69EA32278F66600F1BB7E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3A69EAA227903D800F1BB7E /* StringExtension.swift */,
+				E3A69EAC2279041000F1BB7E /* UIColorExtension.swift */,
+				E3A69EB122790D3800F1BB7E /* UIFontExtension.swift */,
+				E3A69EB522791E0300F1BB7E /* UINavigationControllerExtension.swift */,
+				E3A69EA62278F68400F1BB7E /* UIViewControllerExtension.swift */,
+				E3A69EA42278F67300F1BB7E /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E3A69EAE22790C0800F1BB7E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E3A69EAF22790C1100F1BB7E /* Nunito-Bold.ttf */,
+				E3A69EB32279100600F1BB7E /* Nunito-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +255,7 @@
 				E3A69E5F2278DE7500F1BB7E /* Sources */,
 				E3A69E602278DE7500F1BB7E /* Frameworks */,
 				E3A69E612278DE7500F1BB7E /* Resources */,
+				E3A69E8E2278F15200F1BB7E /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -178,8 +328,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A69E712278DE7700F1BB7E /* LaunchScreen.storyboard in Resources */,
+				E3A69EB022790C1100F1BB7E /* Nunito-Bold.ttf in Resources */,
+				E3A69EB42279100600F1BB7E /* Nunito-Regular.ttf in Resources */,
 				E3A69E6E2278DE7700F1BB7E /* Assets.xcassets in Resources */,
-				E3A69E6C2278DE7500F1BB7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +343,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E3A69E8E2278F15200F1BB7E /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3A69E5F2278DE7500F1BB7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A69E692278DE7500F1BB7E /* ViewController.swift in Sources */,
+				E3A69E962278F52700F1BB7E /* AppRouter.swift in Sources */,
+				E3A69E9E2278F5FD00F1BB7E /* PostListPresenter.swift in Sources */,
+				E3A69EBA2279208000F1BB7E /* PostDetailProtocols.swift in Sources */,
+				E3A69EB82279207500F1BB7E /* PostDetailPresenter.swift in Sources */,
+				E3A69EA72278F68400F1BB7E /* UIViewControllerExtension.swift in Sources */,
+				E3A69E9C2278F5F200F1BB7E /* PostListProtocols.swift in Sources */,
+				E3A69EA02278F60D00F1BB7E /* PostListService.swift in Sources */,
+				E3A69E9A2278F5E400F1BB7E /* PostListView.swift in Sources */,
+				E3A69EBC2279208A00F1BB7E /* PostDetailService.swift in Sources */,
+				E3A69EBE227920AE00F1BB7E /* PostDetailView.swift in Sources */,
+				E3A69EA92278F81400F1BB7E /* PostListRouter.swift in Sources */,
+				E3A69EB622791E0300F1BB7E /* UINavigationControllerExtension.swift in Sources */,
 				E3A69E672278DE7500F1BB7E /* AppDelegate.swift in Sources */,
+				E3A69EA52278F67300F1BB7E /* UIViewExtension.swift in Sources */,
+				E3A69EAB227903D800F1BB7E /* StringExtension.swift in Sources */,
+				E3A69EA22278F61600F1BB7E /* PostListCell.swift in Sources */,
+				E3A69EAD2279041000F1BB7E /* UIColorExtension.swift in Sources */,
+				E3A69EB222790D3800F1BB7E /* UIFontExtension.swift in Sources */,
+				E3A69EC0227920B600F1BB7E /* PostDetailRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +397,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A69E7C2278DE7700F1BB7E /* Blog_PostsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +411,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E3A69E6A2278DE7500F1BB7E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3A69E6B2278DE7500F1BB7E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E3A69E6F2278DE7700F1BB7E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -361,8 +543,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XPQRN7QUXG;
-				INFOPLIST_FILE = "Blog Posts/Info.plist";
+				DEVELOPMENT_TEAM = RRP8HRGL7C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Blog Posts/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,8 +565,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XPQRN7QUXG;
-				INFOPLIST_FILE = "Blog Posts/Info.plist";
+				DEVELOPMENT_TEAM = RRP8HRGL7C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Blog Posts/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,7 +589,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPQRN7QUXG;
-				INFOPLIST_FILE = "Blog PostsTests/Info.plist";
+				INFOPLIST_FILE = "Blog PostsTests/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -420,7 +610,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPQRN7QUXG;
-				INFOPLIST_FILE = "Blog PostsTests/Info.plist";
+				INFOPLIST_FILE = "Blog PostsTests/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
