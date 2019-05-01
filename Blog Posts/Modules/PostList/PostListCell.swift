@@ -36,12 +36,13 @@ class PostListCell: UITableViewCell {
     fatalError("init(coder:) has not been implemented")
   }
   
-  func setup(postTitle: String) {
-    titleLabel.text = postTitle
-    shortDescriptionLabel.text = "Star girl moved from back beauty project and the of tending the if form sub taken and came together there..."
-    categoryLabel.text = "Category"
-    labelDate.text = "May 5"
-    labelLikes.text = "325"
+  func setup(post: PostListPresentationEntity) {
+    titleLabel.text = post.title
+    shortDescriptionLabel.text = post.shortDescription
+    categoryLabel.text = post.category
+    labelDate.text = post.date
+    labelLikes.text = post.likes
+    imageTop.image = UIImage(named: post.imageName)
   }
   
   func addElementsInScreen() {
@@ -73,7 +74,6 @@ class PostListCell: UITableViewCell {
   
   func addImageTop() {
     containerView.addSubview(imageTop)
-    imageTop.image = UIImage(named: "image_random_1")
     imageTop.layer.cornerRadius = 12
     imageTop.clipsToBounds = true
     imageTop.contentMode = .scaleAspectFill

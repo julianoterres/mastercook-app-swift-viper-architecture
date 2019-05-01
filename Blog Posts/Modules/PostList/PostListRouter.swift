@@ -17,11 +17,21 @@ class PostListRouter: PostListRouterProtocol {
     
     let view = PostListView()
     let presenter = PostListPresenter()
+    let interactor = PostListInteractor()
     let router = PostListRouter()
+    let worker = PostListWorker()
+    let network = Network()
+    let urlsApi = UrlsApi()
     
     view.presenter = presenter
     presenter.view = view
     presenter.router = router
+    presenter.interactor = interactor
+    interactor.presenter = presenter
+    interactor.worker = worker
+    worker.interactor = interactor
+    worker.network = network
+    worker.urlsApi = urlsApi
     router.view = view
     
     return view
@@ -33,8 +43,8 @@ class PostListRouter: PostListRouterProtocol {
 // MARK: Methods of PostListPresenterToRouterProtocol
 extension PostListRouter: PostListPresenterToRouterProtocol {
   
-  func goToScreenDetails() {
-    let postDetailView = PostDetailRouter().build()
+  func goToScreenDetails(post: PostListPresentationEntity) {
+    let postDetailView = PostDetailRouter().build(post: post)
     view?.navigationController?.pushViewController(postDetailView, animated: true)
   }
   

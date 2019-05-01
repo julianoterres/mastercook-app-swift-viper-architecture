@@ -11,14 +11,33 @@ class PostListPresenter: PostListPresenterProtocol {
   
   weak var view: PostListPresenterToViewProtocol?
   var router: PostListPresenterToRouterProtocol?
+  var interactor: PostListPresenterToInteractorProtocol?
+  
   
 }
 
 // MARK: Methods of PostListViewToPresenterProtocol
 extension PostListPresenter: PostListViewToPresenterProtocol {
   
-  func goToScreenDetails() {
-    router?.goToScreenDetails()
+  func fetchPosts() {
+    interactor?.fetchPosts()
   }
   
+  func goToScreenDetails(post: PostListPresentationEntity) {
+    router?.goToScreenDetails(post: post)
+  }
+
+}
+
+// MARK: Methods of PostListInteractorToPresenterProtocol
+extension PostListPresenter: PostListInteractorToPresenterProtocol {
+  
+  func fetchedPosts(posts: [PostListPresentationEntity]) {
+    view?.showPosts(postList: posts)
+  }
+  
+  func fetchedFail() {
+    view?.showError()
+  }
+
 }

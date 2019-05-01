@@ -11,7 +11,7 @@ import UIKit
 // MARK: Methods of PostDetailRouterProtocol
 class PostDetailRouter: PostDetailRouterProtocol {
   
-  func build() -> UIViewController {
+  func build(post: PostListPresentationEntity) -> UIViewController {
     
     let view = PostDetailView()
     

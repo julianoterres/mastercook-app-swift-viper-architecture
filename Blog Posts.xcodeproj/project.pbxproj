@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3801972227A0B79000AEDD7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3801971227A0B79000AEDD7 /* Network.swift */; };
+		E3801974227A0B84000AEDD7 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3801973227A0B84000AEDD7 /* NetworkProtocol.swift */; };
+		E3801976227A0BB3000AEDD7 /* UrlsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3801975227A0BB3000AEDD7 /* UrlsApi.swift */; };
+		E3801978227A0BC4000AEDD7 /* UrlsApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3801977227A0BC4000AEDD7 /* UrlsApiProtocol.swift */; };
+		E380197A227A1264000AEDD7 /* PostListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3801979227A1264000AEDD7 /* PostListInteractor.swift */; };
+		E3801981227A1E57000AEDD7 /* PostListApiEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3801980227A1E57000AEDD7 /* PostListApiEntity.swift */; };
+		E3801983227A2081000AEDD7 /* PostListPresentationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3801982227A2081000AEDD7 /* PostListPresentationEntity.swift */; };
+		E3801987227A2750000AEDD7 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3801986227A2750000AEDD7 /* ErrorView.swift */; };
 		E3A69E672278DE7500F1BB7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E662278DE7500F1BB7E /* AppDelegate.swift */; };
 		E3A69E6E2278DE7700F1BB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A69E6D2278DE7700F1BB7E /* Assets.xcassets */; };
 		E3A69E712278DE7700F1BB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A69E6F2278DE7700F1BB7E /* LaunchScreen.storyboard */; };
@@ -16,7 +24,7 @@
 		E3A69E9A2278F5E400F1BB7E /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E992278F5E400F1BB7E /* PostListView.swift */; };
 		E3A69E9C2278F5F200F1BB7E /* PostListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E9B2278F5F200F1BB7E /* PostListProtocols.swift */; };
 		E3A69E9E2278F5FD00F1BB7E /* PostListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E9D2278F5FD00F1BB7E /* PostListPresenter.swift */; };
-		E3A69EA02278F60D00F1BB7E /* PostListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E9F2278F60D00F1BB7E /* PostListService.swift */; };
+		E3A69EA02278F60D00F1BB7E /* PostListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E9F2278F60D00F1BB7E /* PostListWorker.swift */; };
 		E3A69EA22278F61600F1BB7E /* PostListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EA12278F61600F1BB7E /* PostListCell.swift */; };
 		E3A69EA52278F67300F1BB7E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EA42278F67300F1BB7E /* UIViewExtension.swift */; };
 		E3A69EA72278F68400F1BB7E /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EA62278F68400F1BB7E /* UIViewControllerExtension.swift */; };
@@ -45,6 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3801971227A0B79000AEDD7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E3801973227A0B84000AEDD7 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
+		E3801975227A0BB3000AEDD7 /* UrlsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlsApi.swift; sourceTree = "<group>"; };
+		E3801977227A0BC4000AEDD7 /* UrlsApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlsApiProtocol.swift; sourceTree = "<group>"; };
+		E3801979227A1264000AEDD7 /* PostListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListInteractor.swift; sourceTree = "<group>"; };
+		E3801980227A1E57000AEDD7 /* PostListApiEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListApiEntity.swift; sourceTree = "<group>"; };
+		E3801982227A2081000AEDD7 /* PostListPresentationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListPresentationEntity.swift; sourceTree = "<group>"; };
+		E3801986227A2750000AEDD7 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		E3A69E632278DE7500F1BB7E /* Blog Posts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blog Posts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A69E662278DE7500F1BB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3A69E6D2278DE7700F1BB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,7 +75,7 @@
 		E3A69E992278F5E400F1BB7E /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 		E3A69E9B2278F5F200F1BB7E /* PostListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListProtocols.swift; sourceTree = "<group>"; };
 		E3A69E9D2278F5FD00F1BB7E /* PostListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListPresenter.swift; sourceTree = "<group>"; };
-		E3A69E9F2278F60D00F1BB7E /* PostListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListService.swift; sourceTree = "<group>"; };
+		E3A69E9F2278F60D00F1BB7E /* PostListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListWorker.swift; sourceTree = "<group>"; };
 		E3A69EA12278F61600F1BB7E /* PostListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListCell.swift; sourceTree = "<group>"; };
 		E3A69EA42278F67300F1BB7E /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		E3A69EA62278F68400F1BB7E /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -97,6 +113,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E380196E227A0B42000AEDD7 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E380196F227A0B62000AEDD7 /* Network */,
+				E3801970227A0B68000AEDD7 /* UrlsApi */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		E380196F227A0B62000AEDD7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E3801971227A0B79000AEDD7 /* Network.swift */,
+				E3801973227A0B84000AEDD7 /* NetworkProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E3801970227A0B68000AEDD7 /* UrlsApi */ = {
+			isa = PBXGroup;
+			children = (
+				E3801975227A0BB3000AEDD7 /* UrlsApi.swift */,
+				E3801977227A0BC4000AEDD7 /* UrlsApiProtocol.swift */,
+			);
+			path = UrlsApi;
+			sourceTree = "<group>";
+		};
+		E380197B227A1B04000AEDD7 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E380197C227A1B0C000AEDD7 /* Api */,
+				E380197D227A1B10000AEDD7 /* Presentation */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E380197C227A1B0C000AEDD7 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				E3801980227A1E57000AEDD7 /* PostListApiEntity.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		E380197D227A1B10000AEDD7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E3801982227A2081000AEDD7 /* PostListPresentationEntity.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E3801984227A272E000AEDD7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E3801985227A2737000AEDD7 /* ErrorView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E3801985227A2737000AEDD7 /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				E3801986227A2750000AEDD7 /* ErrorView.swift */,
+			);
+			path = ErrorView;
+			sourceTree = "<group>";
+		};
 		E3A69E5A2278DE7500F1BB7E = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +242,9 @@
 		E3A69E902278F20E00F1BB7E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E3801984227A272E000AEDD7 /* Components */,
 				E3A69EA32278F66600F1BB7E /* Extensions */,
+				E380196E227A0B42000AEDD7 /* Libraries */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -201,12 +287,14 @@
 		E3A69E972278F5A100F1BB7E /* PostList */ = {
 			isa = PBXGroup;
 			children = (
+				E380197B227A1B04000AEDD7 /* Entity */,
 				E3A69EA12278F61600F1BB7E /* PostListCell.swift */,
+				E3801979227A1264000AEDD7 /* PostListInteractor.swift */,
 				E3A69E9D2278F5FD00F1BB7E /* PostListPresenter.swift */,
 				E3A69E9B2278F5F200F1BB7E /* PostListProtocols.swift */,
-				E3A69E9F2278F60D00F1BB7E /* PostListService.swift */,
-				E3A69E992278F5E400F1BB7E /* PostListView.swift */,
 				E3A69EA82278F81400F1BB7E /* PostListRouter.swift */,
+				E3A69E992278F5E400F1BB7E /* PostListView.swift */,
+				E3A69E9F2278F60D00F1BB7E /* PostListWorker.swift */,
 			);
 			path = PostList;
 			sourceTree = "<group>";
@@ -371,22 +459,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3801981227A1E57000AEDD7 /* PostListApiEntity.swift in Sources */,
+				E380197A227A1264000AEDD7 /* PostListInteractor.swift in Sources */,
 				E3A69E962278F52700F1BB7E /* AppRouter.swift in Sources */,
 				E3A69E9E2278F5FD00F1BB7E /* PostListPresenter.swift in Sources */,
 				E3A69EBA2279208000F1BB7E /* PostDetailProtocols.swift in Sources */,
 				E3A69EB82279207500F1BB7E /* PostDetailPresenter.swift in Sources */,
 				E3A69EA72278F68400F1BB7E /* UIViewControllerExtension.swift in Sources */,
+				E3801987227A2750000AEDD7 /* ErrorView.swift in Sources */,
 				E3A69E9C2278F5F200F1BB7E /* PostListProtocols.swift in Sources */,
-				E3A69EA02278F60D00F1BB7E /* PostListService.swift in Sources */,
+				E3801983227A2081000AEDD7 /* PostListPresentationEntity.swift in Sources */,
+				E3A69EA02278F60D00F1BB7E /* PostListWorker.swift in Sources */,
 				E3A69E9A2278F5E400F1BB7E /* PostListView.swift in Sources */,
+				E3801976227A0BB3000AEDD7 /* UrlsApi.swift in Sources */,
 				E3A69EBC2279208A00F1BB7E /* PostDetailService.swift in Sources */,
 				E3A69EBE227920AE00F1BB7E /* PostDetailView.swift in Sources */,
+				E3801972227A0B79000AEDD7 /* Network.swift in Sources */,
 				E3A69EA92278F81400F1BB7E /* PostListRouter.swift in Sources */,
 				E3A69EB622791E0300F1BB7E /* UINavigationControllerExtension.swift in Sources */,
 				E3A69E672278DE7500F1BB7E /* AppDelegate.swift in Sources */,
 				E3A69EA52278F67300F1BB7E /* UIViewExtension.swift in Sources */,
 				E3A69EAB227903D800F1BB7E /* StringExtension.swift in Sources */,
 				E3A69EA22278F61600F1BB7E /* PostListCell.swift in Sources */,
+				E3801974227A0B84000AEDD7 /* NetworkProtocol.swift in Sources */,
+				E3801978227A0BC4000AEDD7 /* UrlsApiProtocol.swift in Sources */,
 				E3A69EAD2279041000F1BB7E /* UIColorExtension.swift in Sources */,
 				E3A69EB222790D3800F1BB7E /* UIFontExtension.swift in Sources */,
 				E3A69EC0227920B600F1BB7E /* PostDetailRouter.swift in Sources */,
