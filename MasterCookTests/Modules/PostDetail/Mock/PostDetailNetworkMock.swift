@@ -1,5 +1,5 @@
 //
-//  PostListNetworkMock.swift
+//  PostDetailNetworkMock.swift
 //  MasterCookTests
 //
 //  Created by Juliano Terres on 03/05/19.
@@ -9,11 +9,11 @@
 import Alamofire
 @testable import MasterCook
 
-class PostListNetworkSuccessMock: NetworkProtocol {
+class PostDetailNetworkSuccessMock: NetworkProtocol {
   
   func request(url: URL, method: HTTPMethod, parameters: Parameters?, success: @escaping (Data) -> Void, failure: @escaping (String) -> Void) {
     do {
-      let path = Bundle.main.path(forResource: "PostListResquestMock", ofType: "json")!
+      let path = Bundle.main.path(forResource: "PostDetailRequestMock", ofType: "json")!
       let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
       success(data)
     } catch {
@@ -23,7 +23,7 @@ class PostListNetworkSuccessMock: NetworkProtocol {
   
 }
 
-class PostListNetworkFailMock: NetworkProtocol {
+class PostDetailNetworkFailMock: NetworkProtocol {
   
   func request(url: URL, method: HTTPMethod, parameters: Parameters?, success: @escaping (Data) -> Void, failure: @escaping (String) -> Void) {
     failure("Message Error")

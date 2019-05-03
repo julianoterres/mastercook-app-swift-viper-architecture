@@ -37,6 +37,23 @@
 		E3824F44227CA225005FC2E2 /* PostListResquestMock.json in Resources */ = {isa = PBXBuildFile; fileRef = E3824F43227CA225005FC2E2 /* PostListResquestMock.json */; };
 		E3824F4B227CB733005FC2E2 /* PostListNetworkMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F4A227CB733005FC2E2 /* PostListNetworkMock.swift */; };
 		E3824F4C227CB81D005FC2E2 /* PostListResquestMock.json in Resources */ = {isa = PBXBuildFile; fileRef = E3824F43227CA225005FC2E2 /* PostListResquestMock.json */; };
+		E3824F50227CBA0C005FC2E2 /* PostDetailInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F4F227CBA0C005FC2E2 /* PostDetailInteractorMock.swift */; };
+		E3824F52227CBA18005FC2E2 /* PostDetailPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F51227CBA18005FC2E2 /* PostDetailPresenterMock.swift */; };
+		E3824F54227CBA23005FC2E2 /* PostDetailRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F53227CBA23005FC2E2 /* PostDetailRouterMock.swift */; };
+		E3824F56227CBA2E005FC2E2 /* PostDetailViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F55227CBA2E005FC2E2 /* PostDetailViewMock.swift */; };
+		E3824F58227CBA3B005FC2E2 /* PostDetailWorkerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F57227CBA3B005FC2E2 /* PostDetailWorkerMock.swift */; };
+		E3824F5A227CBA52005FC2E2 /* PostDetailNetworkMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F59227CBA52005FC2E2 /* PostDetailNetworkMock.swift */; };
+		E3824F5C227CBA65005FC2E2 /* PostDetailRequestMock.json in Resources */ = {isa = PBXBuildFile; fileRef = E3824F5B227CBA65005FC2E2 /* PostDetailRequestMock.json */; };
+		E3824F5E227CBAFC005FC2E2 /* PostDetailInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F5D227CBAFC005FC2E2 /* PostDetailInteractorTests.swift */; };
+		E3824F60227CBB07005FC2E2 /* PostDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F5F227CBB07005FC2E2 /* PostDetailPresenterTests.swift */; };
+		E3824F62227CBB15005FC2E2 /* PostDetailRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F61227CBB15005FC2E2 /* PostDetailRouterTests.swift */; };
+		E3824F64227CBB20005FC2E2 /* PostDetailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F63227CBB20005FC2E2 /* PostDetailViewTests.swift */; };
+		E3824F66227CBB2C005FC2E2 /* PostDetailWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F65227CBB2C005FC2E2 /* PostDetailWorkerTests.swift */; };
+		E3824F67227CD1A0005FC2E2 /* PostDetailRequestMock.json in Resources */ = {isa = PBXBuildFile; fileRef = E3824F5B227CBA65005FC2E2 /* PostDetailRequestMock.json */; };
+		E3824F6C227CD97A005FC2E2 /* AppRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F6B227CD97A005FC2E2 /* AppRouterTests.swift */; };
+		E3824F70227CDA37005FC2E2 /* UrlsApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F6F227CDA37005FC2E2 /* UrlsApiTests.swift */; };
+		E3824F73227CDDC3005FC2E2 /* UIFontExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F72227CDDC3005FC2E2 /* UIFontExtensionTests.swift */; };
+		E3824F75227CDF0A005FC2E2 /* UIColorExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F74227CDF0A005FC2E2 /* UIColorExtensionTests.swift */; };
 		E3A69E672278DE7500F1BB7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E662278DE7500F1BB7E /* AppDelegate.swift */; };
 		E3A69E6E2278DE7700F1BB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A69E6D2278DE7700F1BB7E /* Assets.xcassets */; };
 		E3A69E712278DE7700F1BB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A69E6F2278DE7700F1BB7E /* LaunchScreen.storyboard */; };
@@ -102,6 +119,22 @@
 		E3824F3D227C9AFF005FC2E2 /* PostListInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListInteractorMock.swift; sourceTree = "<group>"; };
 		E3824F43227CA225005FC2E2 /* PostListResquestMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PostListResquestMock.json; sourceTree = "<group>"; };
 		E3824F4A227CB733005FC2E2 /* PostListNetworkMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListNetworkMock.swift; sourceTree = "<group>"; };
+		E3824F4F227CBA0C005FC2E2 /* PostDetailInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailInteractorMock.swift; sourceTree = "<group>"; };
+		E3824F51227CBA18005FC2E2 /* PostDetailPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailPresenterMock.swift; sourceTree = "<group>"; };
+		E3824F53227CBA23005FC2E2 /* PostDetailRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailRouterMock.swift; sourceTree = "<group>"; };
+		E3824F55227CBA2E005FC2E2 /* PostDetailViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewMock.swift; sourceTree = "<group>"; };
+		E3824F57227CBA3B005FC2E2 /* PostDetailWorkerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailWorkerMock.swift; sourceTree = "<group>"; };
+		E3824F59227CBA52005FC2E2 /* PostDetailNetworkMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailNetworkMock.swift; sourceTree = "<group>"; };
+		E3824F5B227CBA65005FC2E2 /* PostDetailRequestMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PostDetailRequestMock.json; sourceTree = "<group>"; };
+		E3824F5D227CBAFC005FC2E2 /* PostDetailInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailInteractorTests.swift; sourceTree = "<group>"; };
+		E3824F5F227CBB07005FC2E2 /* PostDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailPresenterTests.swift; sourceTree = "<group>"; };
+		E3824F61227CBB15005FC2E2 /* PostDetailRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailRouterTests.swift; sourceTree = "<group>"; };
+		E3824F63227CBB20005FC2E2 /* PostDetailViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewTests.swift; sourceTree = "<group>"; };
+		E3824F65227CBB2C005FC2E2 /* PostDetailWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailWorkerTests.swift; sourceTree = "<group>"; };
+		E3824F6B227CD97A005FC2E2 /* AppRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouterTests.swift; sourceTree = "<group>"; };
+		E3824F6F227CDA37005FC2E2 /* UrlsApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlsApiTests.swift; sourceTree = "<group>"; };
+		E3824F72227CDDC3005FC2E2 /* UIFontExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtensionTests.swift; sourceTree = "<group>"; };
+		E3824F74227CDF0A005FC2E2 /* UIColorExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensionTests.swift; sourceTree = "<group>"; };
 		E3A69E632278DE7500F1BB7E /* MasterCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A69E662278DE7500F1BB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3A69E6D2278DE7700F1BB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -253,6 +286,7 @@
 		E3824F27227C9A17005FC2E2 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				E3824F4D227CB9F0005FC2E2 /* PostDetail */,
 				E3824F28227C9A2D005FC2E2 /* PostList */,
 			);
 			path = Modules;
@@ -285,27 +319,65 @@
 			path = Mock;
 			sourceTree = "<group>";
 		};
-		E3824F45227CB16D005FC2E2 /* Common */ = {
+		E3824F4D227CB9F0005FC2E2 /* PostDetail */ = {
 			isa = PBXGroup;
 			children = (
-				E3824F46227CB173005FC2E2 /* Libraries */,
+				E3824F4E227CB9F6005FC2E2 /* Mock */,
+				E3824F5D227CBAFC005FC2E2 /* PostDetailInteractorTests.swift */,
+				E3824F5F227CBB07005FC2E2 /* PostDetailPresenterTests.swift */,
+				E3824F61227CBB15005FC2E2 /* PostDetailRouterTests.swift */,
+				E3824F63227CBB20005FC2E2 /* PostDetailViewTests.swift */,
+				E3824F65227CBB2C005FC2E2 /* PostDetailWorkerTests.swift */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		E3824F4E227CB9F6005FC2E2 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				E3824F4F227CBA0C005FC2E2 /* PostDetailInteractorMock.swift */,
+				E3824F59227CBA52005FC2E2 /* PostDetailNetworkMock.swift */,
+				E3824F51227CBA18005FC2E2 /* PostDetailPresenterMock.swift */,
+				E3824F53227CBA23005FC2E2 /* PostDetailRouterMock.swift */,
+				E3824F55227CBA2E005FC2E2 /* PostDetailViewMock.swift */,
+				E3824F57227CBA3B005FC2E2 /* PostDetailWorkerMock.swift */,
+				E3824F5B227CBA65005FC2E2 /* PostDetailRequestMock.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		E3824F6A227CD96F005FC2E2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E3824F6B227CD97A005FC2E2 /* AppRouterTests.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E3824F6D227CDA15005FC2E2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E3824F71227CDDB1005FC2E2 /* Extensions */,
+				E3824F6E227CDA1E005FC2E2 /* Libraries */,
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		E3824F46227CB173005FC2E2 /* Libraries */ = {
+		E3824F6E227CDA1E005FC2E2 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				E3824F47227CB180005FC2E2 /* Network */,
+				E3824F6F227CDA37005FC2E2 /* UrlsApiTests.swift */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
 		};
-		E3824F47227CB180005FC2E2 /* Network */ = {
+		E3824F71227CDDB1005FC2E2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E3824F74227CDF0A005FC2E2 /* UIColorExtensionTests.swift */,
+				E3824F72227CDDC3005FC2E2 /* UIFontExtensionTests.swift */,
 			);
-			path = Network;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E3A69E5A2278DE7500F1BB7E = {
@@ -343,7 +415,8 @@
 		E3A69E7A2278DE7700F1BB7E /* MasterCookTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3824F45227CB16D005FC2E2 /* Common */,
+				E3824F6A227CD96F005FC2E2 /* App */,
+				E3824F6D227CDA15005FC2E2 /* Common */,
 				E3824F27227C9A17005FC2E2 /* Modules */,
 				E3A69E942278F25700F1BB7E /* SupportFiles */,
 			);
@@ -554,6 +627,7 @@
 				E3A69EB022790C1100F1BB7E /* Nunito-Bold.ttf in Resources */,
 				E3A69EB42279100600F1BB7E /* Nunito-Regular.ttf in Resources */,
 				E3824F4C227CB81D005FC2E2 /* PostListResquestMock.json in Resources */,
+				E3824F67227CD1A0005FC2E2 /* PostDetailRequestMock.json in Resources */,
 				E3A69E6E2278DE7700F1BB7E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,6 +636,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3824F5C227CBA65005FC2E2 /* PostDetailRequestMock.json in Resources */,
 				E3824F44227CA225005FC2E2 /* PostListResquestMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,17 +712,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3824F56227CBA2E005FC2E2 /* PostDetailViewMock.swift in Sources */,
+				E3824F52227CBA18005FC2E2 /* PostDetailPresenterMock.swift in Sources */,
+				E3824F58227CBA3B005FC2E2 /* PostDetailWorkerMock.swift in Sources */,
+				E3824F62227CBB15005FC2E2 /* PostDetailRouterTests.swift in Sources */,
+				E3824F66227CBB2C005FC2E2 /* PostDetailWorkerTests.swift in Sources */,
+				E3824F6C227CD97A005FC2E2 /* AppRouterTests.swift in Sources */,
+				E3824F54227CBA23005FC2E2 /* PostDetailRouterMock.swift in Sources */,
 				E3824F3E227C9AFF005FC2E2 /* PostListInteractorMock.swift in Sources */,
+				E3824F70227CDA37005FC2E2 /* UrlsApiTests.swift in Sources */,
+				E3824F75227CDF0A005FC2E2 /* UIColorExtensionTests.swift in Sources */,
+				E3824F5E227CBAFC005FC2E2 /* PostDetailInteractorTests.swift in Sources */,
 				E3824F3A227C9AE7005FC2E2 /* PostListRouterMock.swift in Sources */,
 				E3824F3C227C9AF3005FC2E2 /* PostListPresenterMock.swift in Sources */,
+				E3824F64227CBB20005FC2E2 /* PostDetailViewTests.swift in Sources */,
 				E3824F32227C9AB4005FC2E2 /* PostListPresenterTests.swift in Sources */,
+				E3824F60227CBB07005FC2E2 /* PostDetailPresenterTests.swift in Sources */,
 				E3824F30227C9AA8005FC2E2 /* PostListRouterTests.swift in Sources */,
 				E3824F2C227C9A5F005FC2E2 /* PostListViewTests.swift in Sources */,
 				E3824F2E227C9A8F005FC2E2 /* PostListWorkerTests.swift in Sources */,
+				E3824F5A227CBA52005FC2E2 /* PostDetailNetworkMock.swift in Sources */,
 				E3824F34227C9ABF005FC2E2 /* PostListInteractorTests.swift in Sources */,
 				E3824F36227C9ACF005FC2E2 /* PostListWorkerMock.swift in Sources */,
 				E3824F4B227CB733005FC2E2 /* PostListNetworkMock.swift in Sources */,
 				E3824F38227C9ADA005FC2E2 /* PostListViewMock.swift in Sources */,
+				E3824F73227CDDC3005FC2E2 /* UIFontExtensionTests.swift in Sources */,
+				E3824F50227CBA0C005FC2E2 /* PostDetailInteractorMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

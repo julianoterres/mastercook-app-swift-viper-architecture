@@ -52,7 +52,7 @@ protocol PostDetailInteractorToPresenterProtocol: class {
 protocol PostDetailWorkerProtocol: class {
   var interactor: PostDetailWorkerToInteractorProtocol? { get set }
   var network: NetworkProtocol? { get set }
-  var urlsApi: UrlsApi? { get set }
+  var urlsApi: UrlsApiProtocol? { get set }
 }
 
 // MARK: Methods of Woker to Interactor

@@ -13,7 +13,7 @@ class PostDetailWorker: PostDetailWorkerProtocol {
   
   var interactor: PostDetailWorkerToInteractorProtocol?
   var network: NetworkProtocol?
-  var urlsApi: UrlsApi?
+  var urlsApi: UrlsApiProtocol?
   
 }
 
