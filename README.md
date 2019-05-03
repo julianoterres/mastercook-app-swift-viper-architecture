@@ -1,10 +1,14 @@
-# iOS Blog Posts App
+# iOS Master Cook App
 
-Hello! This is steps to run the Blog Posts App in your Xcode
+Hello! This is steps to run the Master Cook App in your Xcode
 
 ## Architecture
 
-This project was building using the MVP whith Router and Clean code
+This project was building using the VIPER and Clean code
+
+## Unit Tests
+
+This project use the Quick/Nimble to make a tests
 
 ## Clone repository
 
