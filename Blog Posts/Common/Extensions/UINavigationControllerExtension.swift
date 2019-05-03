@@ -11,10 +11,7 @@ import UIKit
 extension UINavigationController {
   
   func setup() {
-    let image = UIImage(named: "back_button")
-    navigationBar.backIndicatorImage = image
-    navigationBar.backIndicatorTransitionMaskImage = image
-    navigationBar.tintColor = .white
+    navigationBar.tintColor = .backButton
     navigationBar.barTintColor = .background
     navigationBar.isTranslucent = false
     navigationBar.setValue(true, forKey: "hidesShadow")

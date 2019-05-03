@@ -15,6 +15,12 @@
 		E3801981227A1E57000AEDD7 /* PostListApiEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3801980227A1E57000AEDD7 /* PostListApiEntity.swift */; };
 		E3801983227A2081000AEDD7 /* PostListPresentationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3801982227A2081000AEDD7 /* PostListPresentationEntity.swift */; };
 		E3801987227A2750000AEDD7 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3801986227A2750000AEDD7 /* ErrorView.swift */; };
+		E3824F13227BA37B005FC2E2 /* PostDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F12227BA37B005FC2E2 /* PostDetailInteractor.swift */; };
+		E3824F15227BA4D7005FC2E2 /* PostDetailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F14227BA4D7005FC2E2 /* PostDetailWorker.swift */; };
+		E3824F1A227C8550005FC2E2 /* PostDetailAuthorApiEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F19227C8550005FC2E2 /* PostDetailAuthorApiEntity.swift */; };
+		E3824F1C227C85C3005FC2E2 /* PostDetailAuthorAddressApiEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F1B227C85C3005FC2E2 /* PostDetailAuthorAddressApiEntity.swift */; };
+		E3824F1E227C86A2005FC2E2 /* PostDetailAuthorCompanyApiEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F1D227C86A2005FC2E2 /* PostDetailAuthorCompanyApiEntity.swift */; };
+		E3824F20227C89A3005FC2E2 /* PostDetailPresentationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3824F1F227C89A3005FC2E2 /* PostDetailPresentationEntity.swift */; };
 		E3A69E672278DE7500F1BB7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69E662278DE7500F1BB7E /* AppDelegate.swift */; };
 		E3A69E6E2278DE7700F1BB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A69E6D2278DE7700F1BB7E /* Assets.xcassets */; };
 		E3A69E712278DE7700F1BB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A69E6F2278DE7700F1BB7E /* LaunchScreen.storyboard */; };
@@ -37,7 +43,6 @@
 		E3A69EB622791E0300F1BB7E /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EB522791E0300F1BB7E /* UINavigationControllerExtension.swift */; };
 		E3A69EB82279207500F1BB7E /* PostDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EB72279207500F1BB7E /* PostDetailPresenter.swift */; };
 		E3A69EBA2279208000F1BB7E /* PostDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EB92279208000F1BB7E /* PostDetailProtocols.swift */; };
-		E3A69EBC2279208A00F1BB7E /* PostDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EBB2279208A00F1BB7E /* PostDetailService.swift */; };
 		E3A69EBE227920AE00F1BB7E /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EBD227920AE00F1BB7E /* PostDetailView.swift */; };
 		E3A69EC0227920B600F1BB7E /* PostDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A69EBF227920B600F1BB7E /* PostDetailRouter.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +66,12 @@
 		E3801980227A1E57000AEDD7 /* PostListApiEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListApiEntity.swift; sourceTree = "<group>"; };
 		E3801982227A2081000AEDD7 /* PostListPresentationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListPresentationEntity.swift; sourceTree = "<group>"; };
 		E3801986227A2750000AEDD7 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		E3824F12227BA37B005FC2E2 /* PostDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailInteractor.swift; sourceTree = "<group>"; };
+		E3824F14227BA4D7005FC2E2 /* PostDetailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailWorker.swift; sourceTree = "<group>"; };
+		E3824F19227C8550005FC2E2 /* PostDetailAuthorApiEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailAuthorApiEntity.swift; sourceTree = "<group>"; };
+		E3824F1B227C85C3005FC2E2 /* PostDetailAuthorAddressApiEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailAuthorAddressApiEntity.swift; sourceTree = "<group>"; };
+		E3824F1D227C86A2005FC2E2 /* PostDetailAuthorCompanyApiEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailAuthorCompanyApiEntity.swift; sourceTree = "<group>"; };
+		E3824F1F227C89A3005FC2E2 /* PostDetailPresentationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailPresentationEntity.swift; sourceTree = "<group>"; };
 		E3A69E632278DE7500F1BB7E /* Blog Posts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blog Posts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A69E662278DE7500F1BB7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3A69E6D2278DE7700F1BB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,7 +99,6 @@
 		E3A69EB522791E0300F1BB7E /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
 		E3A69EB72279207500F1BB7E /* PostDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailPresenter.swift; sourceTree = "<group>"; };
 		E3A69EB92279208000F1BB7E /* PostDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailProtocols.swift; sourceTree = "<group>"; };
-		E3A69EBB2279208A00F1BB7E /* PostDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailService.swift; sourceTree = "<group>"; };
 		E3A69EBD227920AE00F1BB7E /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 		E3A69EBF227920B600F1BB7E /* PostDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +189,33 @@
 				E3801986227A2750000AEDD7 /* ErrorView.swift */,
 			);
 			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		E3824F16227C8483005FC2E2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E3824F17227C8488005FC2E2 /* Api */,
+				E3824F18227C849A005FC2E2 /* Presentation */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E3824F17227C8488005FC2E2 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				E3824F1B227C85C3005FC2E2 /* PostDetailAuthorAddressApiEntity.swift */,
+				E3824F19227C8550005FC2E2 /* PostDetailAuthorApiEntity.swift */,
+				E3824F1D227C86A2005FC2E2 /* PostDetailAuthorCompanyApiEntity.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		E3824F18227C849A005FC2E2 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E3824F1F227C89A3005FC2E2 /* PostDetailPresentationEntity.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		E3A69E5A2278DE7500F1BB7E = {
@@ -302,11 +339,13 @@
 		E3A69E982278F5AC00F1BB7E /* PostDetail */ = {
 			isa = PBXGroup;
 			children = (
+				E3824F16227C8483005FC2E2 /* Entity */,
+				E3824F12227BA37B005FC2E2 /* PostDetailInteractor.swift */,
 				E3A69EB72279207500F1BB7E /* PostDetailPresenter.swift */,
 				E3A69EB92279208000F1BB7E /* PostDetailProtocols.swift */,
-				E3A69EBB2279208A00F1BB7E /* PostDetailService.swift */,
-				E3A69EBD227920AE00F1BB7E /* PostDetailView.swift */,
 				E3A69EBF227920B600F1BB7E /* PostDetailRouter.swift */,
+				E3A69EBD227920AE00F1BB7E /* PostDetailView.swift */,
+				E3824F14227BA4D7005FC2E2 /* PostDetailWorker.swift */,
 			);
 			path = PostDetail;
 			sourceTree = "<group>";
@@ -468,17 +507,21 @@
 				E3A69EA72278F68400F1BB7E /* UIViewControllerExtension.swift in Sources */,
 				E3801987227A2750000AEDD7 /* ErrorView.swift in Sources */,
 				E3A69E9C2278F5F200F1BB7E /* PostListProtocols.swift in Sources */,
+				E3824F1A227C8550005FC2E2 /* PostDetailAuthorApiEntity.swift in Sources */,
 				E3801983227A2081000AEDD7 /* PostListPresentationEntity.swift in Sources */,
+				E3824F20227C89A3005FC2E2 /* PostDetailPresentationEntity.swift in Sources */,
 				E3A69EA02278F60D00F1BB7E /* PostListWorker.swift in Sources */,
 				E3A69E9A2278F5E400F1BB7E /* PostListView.swift in Sources */,
 				E3801976227A0BB3000AEDD7 /* UrlsApi.swift in Sources */,
-				E3A69EBC2279208A00F1BB7E /* PostDetailService.swift in Sources */,
+				E3824F15227BA4D7005FC2E2 /* PostDetailWorker.swift in Sources */,
 				E3A69EBE227920AE00F1BB7E /* PostDetailView.swift in Sources */,
 				E3801972227A0B79000AEDD7 /* Network.swift in Sources */,
 				E3A69EA92278F81400F1BB7E /* PostListRouter.swift in Sources */,
+				E3824F13227BA37B005FC2E2 /* PostDetailInteractor.swift in Sources */,
 				E3A69EB622791E0300F1BB7E /* UINavigationControllerExtension.swift in Sources */,
 				E3A69E672278DE7500F1BB7E /* AppDelegate.swift in Sources */,
 				E3A69EA52278F67300F1BB7E /* UIViewExtension.swift in Sources */,
+				E3824F1C227C85C3005FC2E2 /* PostDetailAuthorAddressApiEntity.swift in Sources */,
 				E3A69EAB227903D800F1BB7E /* StringExtension.swift in Sources */,
 				E3A69EA22278F61600F1BB7E /* PostListCell.swift in Sources */,
 				E3801974227A0B84000AEDD7 /* NetworkProtocol.swift in Sources */,
@@ -486,6 +529,7 @@
 				E3A69EAD2279041000F1BB7E /* UIColorExtension.swift in Sources */,
 				E3A69EB222790D3800F1BB7E /* UIFontExtension.swift in Sources */,
 				E3A69EC0227920B600F1BB7E /* PostDetailRouter.swift in Sources */,
+				E3824F1E227C86A2005FC2E2 /* PostDetailAuthorCompanyApiEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

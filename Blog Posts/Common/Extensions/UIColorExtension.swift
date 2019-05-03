@@ -30,6 +30,10 @@ extension UIColor {
     return "#2863EC".contertToColor
   }
   
+  static var backButton: UIColor {
+    return "#2863EC".contertToColor
+  }
+  
   static var date: UIColor {
     return "#3C5B68".contertToColor
   }

@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 // MARK: Methods of View to Presenter
 protocol PostListViewToPresenterProtocol: class {
   func fetchPosts()

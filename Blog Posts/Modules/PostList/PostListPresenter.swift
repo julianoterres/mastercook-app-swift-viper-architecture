@@ -13,7 +13,6 @@ class PostListPresenter: PostListPresenterProtocol {
   var router: PostListPresenterToRouterProtocol?
   var interactor: PostListPresenterToInteractorProtocol?
   
-  
 }
 
 // MARK: Methods of PostListViewToPresenterProtocol
